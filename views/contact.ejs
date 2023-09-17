@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <%-include("partials/header");-%>
+        <h1>Contact</h1>
+        <form class="form" action="/contact" method="post">
+
+            <div class="form-group">
+                <p>
+                    <%= contactContent %>
+                </p>
+            </div>
+            <div class="form-group">  
+                <a class="btn btn-primary" href="https://instagram.com/comrade_tarun_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">Instagram</a>
+                <a class="btn btn-primary" href="https://www.linkedin.com/in/tarun-kumar-singh-90150322a">linkedin</a>
+            </div>
+            <%-include("partials/footer");-%>
+
+
+</body>
+
+</html>
